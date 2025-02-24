@@ -5,7 +5,7 @@
   --secondary: #ff6e1e;
   --lighter-primary: #8a48b5;
   --darker-secondary: #b64000;
-  --bg-color: #fffbf7;
+  --bg-color: #ffffff; /* #fffbf7; */
   --black: #000000;
   --gray: #333333;
   --white: #ffffff;
@@ -157,17 +157,19 @@ p {
 /* about Section Style Ends */
 
 /* Publication Section Style */
-.publication {
+.publication, .project {
   margin-bottom: 20px;
 }
 
-.research--section p {
-  line-height: 1rem;
+.research--section p, .projects--section p {
+  line-height: 1.25rem;
 }
-.publication-name {
+
+.publication-name, .project-name {
   font-size: 1.25rem;
 }
-.publication-authors {
+
+.publication-authors, .project-authors {
   font-style: italic;
   color: #444444;
 }
@@ -176,12 +178,13 @@ p {
   color: #222222;
 }
 
-.publication-links {
+.publication-links, .project-links {
   display: flex;
   gap: 20px;
   text-decoration: underline;
   color: var(--secondary);
 }
+
 
 /* Publication Section Style Ends */
 
