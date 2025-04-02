@@ -221,4 +221,17 @@ p {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .nav-bar--container,
+  .main--section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .footer--container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 /* Responsive Screens Ends*/
