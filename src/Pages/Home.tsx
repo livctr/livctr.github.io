@@ -7,7 +7,7 @@ export default function Home() {
             Hi! I'm <strong>Victor Li</strong>.
           </h1>
           <p>
-            I am a first-year PhD student at the{" "}
+            I am a second-year PhD student at the{" "}
             <a href="https://cds.nyu.edu/">
               NYU Center for Data Science
             </a>
@@ -16,29 +16,25 @@ export default function Home() {
               Prof. Carlos Fernandez-Granda
             </a>{" "}
             and <a href="https://cecilialeiqi.github.io/">Prof. Qi Lei</a>.
-            Recently, I've been interested in{" "}
-            <strong>video understanding in healthcare</strong> as well as
-            problems in <strong>distribution shift</strong>.
-          </p>
-          <p>
-            Previously, I graduated from Caltech with a B.S. in Electrical
-            Engineering in 2024. During this time, I explored convex
-            optimization with{" "}
+            Previously, I earned my B.S. in Electrical Engineering from Caltech in 2024,
+            where I worked on convex optimization with{" "}
             <a href="http://users.cms.caltech.edu/~venkatc/">
               Prof. Venkat Chandrasekaran
             </a>{" "}
             and reinforcement learning for sustainability with{" "}
-            <a href="https://adamwierman.com/">Prof. Adam Wierman</a>. I also
-            got the chance to play some{" "}
-            <a href="https://gocaltech.com/sports/mens-tennis/roster/victor-li/5157">
-              tennis
-            </a>
-            .
+            <a href="https://adamwierman.com/">Prof. Adam Wierman</a>.
           </p>
           <p>
-            I am always looking for new collaborations, especially if you're a
-            student at NYU. Feel free to contact me if our interests align or if
-            you have questions or comments about my work!
+            Broadly, I am interested in developing theory and methods that are designed to handle uncertainty and incompleteness in complex, real-world data. I am particularly interested in machine learning and computer vision applications to healthcare. Feel free to peruse my{" "}
+            <a href="/research">research page</a>{" "}
+            to learn more.
+          </p>
+          <p>
+            When I'm not doing research, I enjoy playing{" "}
+            <a href="https://gocaltech.com/sports/mens-tennis/roster/victor-li/5157">
+              tennis
+            </a>{", "}
+            other racket sports, and running. Feel free to connect with me if you are interested in collaborating.
           </p>
         </div>
       </div>

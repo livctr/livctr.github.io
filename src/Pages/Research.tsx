@@ -1,6 +1,17 @@
 export default function Research() {
   return (
     <section id="researchSection" className="research--section main--section">
+
+<h1>Interests</h1>
+      <br />
+      
+      <div className="interests--container">
+        <span className="interest--button">Risk control</span>
+        <span className="interest--button">Video understanding</span>
+        <span className="interest--button">Multimodal models</span>
+        <span className="interest--button">Healthcare</span>
+      </div>
+
       <h1>Publications</h1>
       <br />
 
@@ -54,7 +65,6 @@ export default function Research() {
             </a>
           </div>
       </div>
-
 
     </section>
   );

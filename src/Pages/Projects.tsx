@@ -3,16 +3,16 @@ export default function Projects() {
     <section id="projectsSection" className="projects--section main--section">
       <h1>Projects</h1>
       <br />
-
+      <p>The purpose of this page is to help me continuously learn and stay motivated. I hope you find it helpful!</p>
       <div className="project">
           <p className="project-name">
             AI Research Explorer
           </p>
           <p className="project-description">
-            Explore by topic the latest papers in AI research, along with the researchers writing them.
+            Explore the latest papers in AI research by topic, along with the researchers leading the frontier.
           </p>
           <div className="project-links">
-            <a href="http://ec2-34-238-247-252.compute-1.amazonaws.com/" className="project-link">
+            <a href="http://ec2-52-90-7-88.compute-1.amazonaws.com" className="project-link">
               Demo
             </a>
             <a href="https://github.com/livctr/ai-topics-explorer" className="project-link">
