@@ -6,6 +6,20 @@ export default function Projects() {
       <p>The purpose of this page is to help me continuously learn and stay motivated. I hope you find it helpful!</p>
       <div className="project">
           <p className="project-name">
+            vidplot
+          </p>
+          <p className="project-description">
+            Video annotation tool. Keypoints, bounding boxes, frame-by-frame labels.
+          </p>
+          <div className="project-links">
+            <a href="https://github.com/livctr/vidplot" className="project-link">
+              Project page
+            </a>
+          </div>
+      </div>
+
+      <div className="project">
+          <p className="project-name">
             AI Research Explorer
           </p>
           <p className="project-description">
