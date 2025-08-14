@@ -26,7 +26,7 @@ export default function Projects() {
             Explore the latest papers in AI research by topic, along with the researchers leading the frontier.
           </p>
           <div className="project-links">
-            <a href="http://ec2-52-90-7-88.compute-1.amazonaws.com" className="project-link">
+            <a href="https://ai-topics-explorer.vercel.app/" className="project-link">
               Demo
             </a>
             <a href="https://github.com/livctr/ai-topics-explorer" className="project-link">
