@@ -9,11 +9,11 @@ export default function Projects() {
             vidplot
           </p>
           <p className="project-description">
-            Video annotation tool. Keypoints, bounding boxes, frame-by-frame labels.
+            Video annotation tool. Keypoints, bounding boxes, frame-by-frame labels. Uses the producer-consumer framework.
           </p>
           <div className="project-links">
             <a href="https://github.com/livctr/vidplot" className="project-link">
-              Project page
+              Reference
             </a>
           </div>
       </div>

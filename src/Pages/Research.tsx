@@ -6,14 +6,32 @@ export default function Research() {
       <br />
       
       <div className="interests--container">
-        <span className="interest--button">Risk control</span>
-        <span className="interest--button">Video understanding</span>
         <span className="interest--button">Multimodal models</span>
+        <span className="interest--button">Agents/RL</span>
         <span className="interest--button">Healthcare</span>
+        <span className="interest--button">Risk control</span>
       </div>
 
       <h1>Publications</h1>
       <br />
+
+      <div className="publication">
+          <p className="publication-name">
+            Performative Risk Control: Calibrating Models for Reliable Deployment under Performativity
+          </p>
+          <p className="publication-conference">Under review.</p>
+          <p className="publication-authors">
+            <strong>Victor Li</strong>, Baiting Chen, Yuzhen Mao, Qi Lei, Zhun Deng
+          </p>
+          <div className="publication-links">
+            <a
+              href="https://arxiv.org/abs/2505.24097"
+              className="publication-link"
+            >
+              Paper
+            </a>
+          </div>
+      </div>
 
       <div className="publication">
           <p className="publication-name">

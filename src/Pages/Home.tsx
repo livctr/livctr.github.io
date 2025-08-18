@@ -25,7 +25,7 @@ export default function Home() {
             <a href="https://adamwierman.com/">Prof. Adam Wierman</a>.
           </p>
           <p>
-            Broadly, I am interested in developing theory and methods that are designed to handle uncertainty and incompleteness in complex, real-world data. I am particularly interested in machine learning and computer vision applications to healthcare. Feel free to peruse my{" "}
+            My goal is to develop theory and methodology that can improve machine learning systems in practice, particularly in healthcare. Recently, I've been working on video understanding for stroke rehabilitation, as well as risk control (uncertainty quantification) under distribution shift. In the past, I've worked on reinforcement learning, sustainability, and convex optimization. I am particularly interested in machine learning and computer vision applications to healthcare. Feel free to peruse my{" "}
             <a href="/research">research page</a>{" "}
             to learn more.
           </p>
