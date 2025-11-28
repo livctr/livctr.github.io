@@ -17,9 +17,33 @@ export default function Research() {
 
       <div className="publication">
           <p className="publication-name">
-            Performative Risk Control: Calibrating Models for Reliable Deployment under Performativity
+            Vision-language models for human motion understanding: Lessons from stroke rehabilitation
           </p>
           <p className="publication-conference">Under review.</p>
+          <p className="publication-authors">
+            <strong>Victor Li</strong>, Naveenraj Kamalakannan, Avinash Parnandi, Heidi Schambra, Carlos Fernandez-Granda
+          </p>
+          <div className="publication-links">
+            <a
+              href="https://arxiv.org/pdf/2511.17727"
+              className="publication-link"
+            >
+              Paper
+            </a>
+            <a
+              href="https://github.com/livctr/vlms4rehab"
+              className="publication-link"
+            >
+              Code
+            </a>
+          </div>
+      </div>
+
+      <div className="publication">
+          <p className="publication-name">
+            Performative Risk Control: Calibrating Models for Reliable Deployment under Performativity
+          </p>
+          <p className="publication-conference">NeurIPS 2025.</p>
           <p className="publication-authors">
             <strong>Victor Li</strong>, Baiting Chen, Yuzhen Mao, Qi Lei, Zhun Deng
           </p>

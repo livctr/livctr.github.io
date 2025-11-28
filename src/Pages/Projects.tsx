@@ -6,6 +6,23 @@ export default function Projects() {
       <p>The purpose of this page is to help me continuously learn and stay motivated. I hope you find it helpful!</p>
       <div className="project">
           <p className="project-name">
+            VSCode Shortcut Buddy
+          </p>
+          <p className="project-description">
+            Training wheels for VSCode keyboard shortcuts.
+          </p>
+          <div className="project-links">
+            <a href="https://open-vsx.org/extension/livctr/shortcuts-helper" className="project-link">
+              Open VSX Registry
+            </a>
+            <a href="https://github.com/livctr/vscode-shortcuts-buddy" className="project-link">
+              Code
+            </a>
+          </div>
+      </div>
+
+      <div className="project">
+          <p className="project-name">
             vidplot
           </p>
           <p className="project-description">
@@ -13,7 +30,7 @@ export default function Projects() {
           </p>
           <div className="project-links">
             <a href="https://github.com/livctr/vidplot" className="project-link">
-              Reference
+              Code
             </a>
           </div>
       </div>
