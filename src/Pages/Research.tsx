@@ -1,17 +1,6 @@
 export default function Research() {
   return (
-    <section id="researchSection" className="research--section main--section">
-
-<h1>Interests</h1>
-      <br />
-      
-      <div className="interests--container">
-        <span className="interest--button">Multimodal models</span>
-        <span className="interest--button">Agents/RL</span>
-        <span className="interest--button">Healthcare</span>
-        <span className="interest--button">Risk control</span>
-      </div>
-
+    <section id="research" className="research--section main--section">
       <h1>Publications</h1>
       <br />
 
@@ -86,24 +75,6 @@ export default function Research() {
               className="publication-link"
             >
               Code
-            </a>
-          </div>
-      </div>
-
-      <div className="publication">
-          <p className="publication-name">
-            Machine learning for deep space network antenna motions detection
-          </p>
-          <p className="publication-conference">SPIE Photonics West 2022</p>
-          <p className="publication-authors">
-            <strong>Victor Li</strong>, James McKelvy, Lin Yi
-          </p>
-          <div className="publication-links">
-            <a
-              href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12019/2608321/Machine-learning-for-deep-space-network-antenna-motions-detection/10.1117/12.2608321.short"
-              className="publication-link"
-            >
-              Paper & Presentation
             </a>
           </div>
       </div>
