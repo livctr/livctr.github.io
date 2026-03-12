@@ -1,37 +1,38 @@
-// import React from 'react';
+const posts = [
+  {
+    title: "Qwen3-VL Video Pre-Processing Guide",
+    date: "March 11, 2026",
+    description:
+      "Reference for video pre-processing (frame sampling and resizing) when running inference with Qwen3-VL and Qwen3.5-VL, covering both HuggingFace Transformers and vLLM. Open up the Jupyter notebook in the link.",
+    href: "https://github.com/livctr/qwen3-video-inference/tree/main",
+    external: true,
+  },
+];
 
 export default function Blog() {
   return (
-    <section id="blogSection" className="blog--section main--section">
-      <h1>Blog</h1>
-      <br />
-
-      {/* <div className="blog-post">
-        <h2 className="blog-post-title">
-          Understanding Uncertainty in Machine Learning: A Practical Guide
-        </h2>
-        <p className="blog-post-meta">
-          <span className="blog-post-date">January 15, 2025</span>
-          <span className="blog-post-tags">
-            <span className="blog-tag">Machine Learning</span>
-            <span className="blog-tag">Uncertainty</span>
-            <span className="blog-tag">Healthcare</span>
-          </span>
-        </p>
-        <div className="blog-post-excerpt">
-          <p>
-            In the rapidly evolving field of machine learning, understanding and quantifying uncertainty 
-            has become increasingly crucial, especially in high-stakes applications like healthcare. 
-            This post explores the fundamental concepts of uncertainty in ML models and discusses 
-            practical approaches for handling incomplete and noisy real-world data...
-          </p>
-        </div>
-      </div> */}
-
-      <div className="coming-soon">
-        <h2>Coming Soon</h2>
-        <p>Blog posts are in the works. Stay tuned!</p>
-      </div>
+    <section id="blog" className="main--section blog--list--section">
+      <nav className="content--nav">
+        <a href="/" className="content--nav--link">← home</a>
+      </nav>
+      <h1 className="blog--list--heading">Blog</h1>
+      <ul className="blog--list">
+        {posts.map((post) => (
+          <li key={post.href} className="blog--list--item">
+            <div className="blog--list--meta">
+              <a
+                href={post.href}
+                className="blog--list--title"
+                {...(post.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+              >
+                {post.title}
+              </a>
+              <span className="blog--list--date">{post.date}</span>
+            </div>
+            <p className="blog--list--desc">{post.description}</p>
+          </li>
+        ))}
+      </ul>
     </section>
   );
-} 
+}
